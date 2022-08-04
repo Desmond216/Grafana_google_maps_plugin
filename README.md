@@ -30,6 +30,19 @@ For more information about panels, refer to the documentation on [Panels](https:
    npm run build
    ```
 
+## Google Maps API Key
+
+Fill Google API KEY under 
+   ```bash
+   useJsApiLoader({
+    id: 'google-map-script',
+    googleMapsApiKey: "YOUR API KEY"
+  })
+   ```
+
+
+![image](https://user-images.githubusercontent.com/27355460/182798727-b7c9341a-b02f-4294-999f-b57d706038c1.png)
+
 ## Learn more
 
 - [Build a panel plugin tutorial](https://grafana.com/tutorials/build-a-panel-plugin)

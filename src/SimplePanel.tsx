@@ -11,7 +11,7 @@ interface Props extends PanelProps<SimpleOptions> {}
 
 const containerStyle = {
   width: '100%',
-  height: '800px'
+  height: '550px'
 };
 
 const center = {
@@ -108,6 +108,7 @@ function MyComponent() {
         }}
         zoom={7}
         onLoad={onLoad}
+        mapTypeId={'hybrid'}
       >
         { /* Child components, such as markers, info windows, etc. */ }
         <>
@@ -161,7 +162,6 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
 
   return (
     <div>
-      hi {radii}
       <MyComponent/>
     </div>
   );

@@ -32,13 +32,15 @@ For more information about panels, refer to the documentation on [Panels](https:
 
 ## Google Maps API Key
 
-Fill Google API KEY under 
+1. Fill Google API KEY under 
    ```bash
    useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "YOUR API KEY"
   })
    ```
+   
+2. Check out more about Google Maps API KEY at https://developers.google.com/maps/documentation/javascript/get-api-key
 
 
 ![image](https://user-images.githubusercontent.com/27355460/182798727-b7c9341a-b02f-4294-999f-b57d706038c1.png)
